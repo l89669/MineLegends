@@ -10,26 +10,26 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.dragonet.craftlegend.hotkey.HotKeyHandler;
-import org.dragonet.craftlegend.hotkey.HotKeyManager;
-import org.dragonet.craftlegend.hotkey.HotKeyMap;
 import org.dragonet.craftlegend.legend.LegendManager;
 import org.dragonet.craftlegend.magic.MagicManager;
+import org.dragonet.hotkeymanager.HotKeyHandler;
+import org.dragonet.hotkeymanager.HotKeyManager;
+import org.dragonet.hotkeymanager.HotKeyMap;
 
 /**
  * Created on 2017/7/9.
  */
 public class MineLegend extends JavaPlugin implements Listener {
 
-    private final HotKeyManager hotKeyManager = new HotKeyManager(this);
+    private HotKeyManager hotKeyManager ;
 
-    private final MagicManager magicManager = new MagicManager(this);
+    private MagicManager magicManager = new MagicManager(this);
 
-    private final LegendManager legendManager = new LegendManager(this);
+    private LegendManager legendManager = new LegendManager(this);
 
     @Override
     public void onEnable() {
-        getServer().getPluginManager().registerEvents(hotKeyManager, this);
+        hotKeyManager = (HotKeyManager) getServer().getPluginManager().getPlugin("HotKeyManager");
 
         magicManager.init();
         legendManager.init();

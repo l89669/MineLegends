@@ -2,3 +2,4 @@ main: org.dragonet.minelegend.MineLegend
 version: 1.0
 name: MineLegend
 author: DefinitlyEvil
+depend: ["HotKeyManager"]

@@ -1,4 +1,4 @@
-package org.dragonet.craftlegend.magic;
+package org.dragonet.minelegend.magic;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.plugin.Plugin;

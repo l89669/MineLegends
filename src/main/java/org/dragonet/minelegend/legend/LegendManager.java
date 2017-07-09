@@ -1,7 +1,7 @@
-package org.dragonet.craftlegend.legend;
+package org.dragonet.minelegend.legend;
 
 import org.bukkit.event.Listener;
-import org.dragonet.craftlegend.MineLegend;
+import org.dragonet.minelegend.MineLegend;
 
 /**
  * Created on 2017/7/9.

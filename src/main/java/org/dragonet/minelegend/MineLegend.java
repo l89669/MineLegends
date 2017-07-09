@@ -1,4 +1,4 @@
-package org.dragonet.craftlegend;
+package org.dragonet.minelegend;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -10,8 +10,8 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.dragonet.craftlegend.legend.LegendManager;
-import org.dragonet.craftlegend.magic.MagicManager;
+import org.dragonet.minelegend.legend.LegendManager;
+import org.dragonet.minelegend.magic.MagicManager;
 import org.dragonet.hotkeymanager.HotKeyHandler;
 import org.dragonet.hotkeymanager.HotKeyManager;
 import org.dragonet.hotkeymanager.HotKeyMap;

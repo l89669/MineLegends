@@ -1,10 +1,10 @@
-package org.dragonet.craftlegend.magic;
+package org.dragonet.minelegend.magic;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.InventoryHolder;
-import org.dragonet.craftlegend.MineLegend;
-import org.dragonet.craftlegend.magic.impl.TestMagic;
+import org.dragonet.minelegend.MineLegend;
+import org.dragonet.minelegend.magic.impl.TestMagic;
 
 import java.util.*;
 

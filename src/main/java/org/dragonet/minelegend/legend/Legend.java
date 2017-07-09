@@ -1,4 +1,4 @@
-package org.dragonet.craftlegend.legend;
+package org.dragonet.minelegend.legend;
 
 /**
  * Created on 2017/7/9.

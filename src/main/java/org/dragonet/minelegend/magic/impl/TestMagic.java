@@ -1,4 +1,4 @@
-package org.dragonet.craftlegend.magic.impl;
+package org.dragonet.minelegend.magic.impl;
 
 import org.bukkit.Material;
 import org.bukkit.Particle;
@@ -6,7 +6,7 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
-import org.dragonet.craftlegend.magic.BaseMagic;
+import org.dragonet.minelegend.magic.BaseMagic;
 
 /**
  * Created on 2017/7/9.

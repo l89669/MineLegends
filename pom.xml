@@ -29,6 +29,12 @@
             <artifactId>bukkit</artifactId>
             <version>1.12-R0.1-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.dragonet</groupId>
+            <artifactId>HotKeyManager</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

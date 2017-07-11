@@ -9,12 +9,6 @@ import org.bukkit.plugin.Plugin;
 interface Magic {
 
     /**
-     * which slot is this magic hot key located at? -1 for entities with no inventory
-     * @return
-     */
-    int getSlotUsed();
-
-    /**
      * initialization
      * @param owner
      * @param args
@@ -43,5 +37,5 @@ interface Magic {
      */
     long getUpdateFrequency();
 
-    void registerToScheduler(Plugin plugin);
+    void registerToServer(Plugin plugin);
 }

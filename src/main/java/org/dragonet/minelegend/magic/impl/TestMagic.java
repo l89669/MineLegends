@@ -1,11 +1,8 @@
 package org.dragonet.minelegend.magic.impl;
 
-import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.InventoryHolder;
-import org.bukkit.inventory.ItemStack;
 import org.dragonet.minelegend.magic.BaseMagic;
 
 /**
@@ -35,12 +32,6 @@ public class TestMagic extends BaseMagic {
             return false;
         }
         getOwner().getWorld().spawnParticle(Particle.FLAME, getOwner().getLocation(), 10);
-        ((InventoryHolder)getOwner()).getInventory().setItem(getSlotUsed(),
-                new ItemStack(
-                        Material.FIREWORK,
-                        (int)((1 - (getTicksLast() / 200.0F)) * 100)
-                )
-        );
         ((Player)getOwner()).sendTitle("", "Percent " + ((int)((1 - (getTicksLast() / 200.0F)) * 100)) + "%", 0, 50, 0);
         return true;
     }
